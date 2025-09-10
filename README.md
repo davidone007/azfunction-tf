@@ -1,8 +1,4 @@
----
-title: "Despliegue de mi primera Azure Function con Terraform"
-author: "Davide Flamini"
-course: "IngeSoft V"
----
+# Despliegue de mi primera Azure Function con Terraform
 
 **Autor:** Davide Flamini
 **Curso:** IngeSoft V
@@ -27,7 +23,7 @@ az login
 
 Esto abrió el navegador donde inicié sesión con mi cuenta de estudiante de **Universidad Icesi**.
 
-![Captura del login](imagenes/Screenshot 2025-09-10 at 8.32.35 AM.png)
+![Captura del login](./imagenes/Screenshot 2025-09-10 at 8.32.35 AM.png)
 
 ---
 
@@ -45,7 +41,7 @@ terraform fmt
 * `validate`: Revisa que la sintaxis de los archivos `.tf` sea correcta.
 * `fmt`: Formatea los archivos para mantener un estilo uniforme.
 
-![Captura init validate](imagenes/Screenshot 2025-09-10 at 8.38.18 AM.png)
+![Captura init validate](./imagenes/Screenshot 2025-09-10 at 8.38.18 AM.png)
 
 ---
 
@@ -68,7 +64,7 @@ provider "azurerm" {
 }
 ```
 
-![Captura account list](imagenes/Screenshot 2025-09-10 at 8.35.58 AM.png)
+![Captura account list](./imagenes/Screenshot 2025-09-10 at 8.35.58 AM.png)
 
 ---
 
@@ -84,7 +80,7 @@ variable "location" {
 }
 ```
 
-![Captura location](imagenes/Screenshot 2025-09-10 at 8.37.09 AM.png)
+![Captura location](./imagenes/Screenshot 2025-09-10 at 8.37.09 AM.png)
 
 ---
 
@@ -98,11 +94,11 @@ terraform plan
 
 Aquí definí el nombre de mi función como:
 
-```text
+```
 flaminifuncion
 ```
 
-![Captura terraform plan](imagenes/Screenshot 2025-09-10 at 8.39.01 AM.png)
+![Captura terraform plan](./imagenes/Screenshot 2025-09-10 at 8.39.01 AM.png)
 
 ---
 
@@ -116,7 +112,7 @@ terraform apply
 
 Terraform mostró un resumen de recursos a crear y me pidió confirmación. Ingresé `yes` para continuar.
 
-![Captura terraform apply](imagenes/Screenshot 2025-09-10 at 8.40.11 AM.png)
+![Captura terraform apply](./imagenes/Screenshot 2025-09-10 at 8.40.11 AM.png)
 
 ---
 
@@ -125,8 +121,8 @@ Terraform mostró un resumen de recursos a crear y me pidió confirmación. Ingr
 Después de unos minutos, la función quedó desplegada en mi suscripción de Azure.
 Entré al [Portal de Azure](https://portal.azure.com/) y confirmé que la **Azure Function** estaba creada correctamente.
 
-![Captura portal Azure](imagenes/Screenshot 2025-09-10 at 8.42.26 AM.png)
-![Captura función](imagenes/Screenshot 2025-09-10 at 8.41.10 AM.png)
+![Captura portal Azure](./imagenes/Screenshot 2025-09-10 at 8.41.10 AM.png)
+![Captura función](./imagenes/Screenshot 2025-09-10 at 8.41.10 AM.png)
 
 ---
 
