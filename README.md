@@ -145,17 +145,11 @@ La respuesta fue un JSON con el parámetro enviado:
 }
 ```
 
-![Respuesta Azure Function](./imagenes/Screenshot_2025-09-10_azure_function_response.png)
-
----
-
-### 9. Captura de la respuesta en el navegador
-
-A continuación se muestra la captura de la respuesta de la Azure Function vista directamente en el navegador:
-
 ![Respuesta Azure Function navegador](./imagenes/Screenshot_2025-09-10_azure_function_browser.png)
 
 ---
+
+
 
 ## Repositorio base
 
