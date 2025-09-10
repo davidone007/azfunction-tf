@@ -1,11 +1,11 @@
 ---
-
-# Despliegue de mi primera Azure Function con Terraform
+title: "Despliegue de mi primera Azure Function con Terraform"
+author: "Davide Flamini"
+course: "IngeSoft V"
+---
 
 **Autor:** Davide Flamini
 **Curso:** IngeSoft V
-
----
 
 ## Descripción
 
@@ -98,7 +98,7 @@ terraform plan
 
 Aquí definí el nombre de mi función como:
 
-```
+```text
 flaminifuncion
 ```
 
